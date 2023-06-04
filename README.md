@@ -1,24 +1,34 @@
-# README
+# 🐰BunnyCommerce
+Back-end for BunnyCommerce
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+> Project Status: In progress ⚠️
+> <br>
+> Current Working: Developing Carrot models and controllers ⚠️
+<br>
 
-* Ruby version
+### This is a simple Ecommerce Ruby on Rails Back-end project developed for study purpose.
 
-* System dependencies
+### That is a simple but very powerfull project and i tried to use the best developments, git and clean code practices.
 
-* Configuration
+<br>
 
-* Database creation
+## Features used:
 
-* Database initialization
+<table>
+  <tr>
+    <td>Ruby</td>
+  </tr>
+  <tr>
+    <td>3.2.2</td>
+  </tr>
+<table>
 
-* How to run the test suite
+<br>
 
-* Services (job queues, cache servers, search engines, etc.)
+## How to run the APP:
 
-* Deployment instructions
-
-* ...
+1. Clone this repository
+2. Install Ruby and Ruby on Rails
+3. Run rails db:create db:migrate
+4. Run Rails s
