@@ -1,0 +1,2 @@
+class Carrot < ApplicationRecord
+end
