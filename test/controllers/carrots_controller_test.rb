@@ -12,7 +12,7 @@ class CarrotsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create carrot" do
     assert_difference("Carrot.count") do
-      post carrots_url, params: { carrot: { description: @carrot.description, name: @carrot.name, price: @carrot.price, stock: @carrot.stock } }, as: :json
+      post carrots_url, params: { carrot: { description: @carrot.description, name: @carrot.name, price: @carrot.price, stock: @carrot.stock, supplier_id: @carrot.supplier_id } }, as: :json
     end
 
     assert_response :created
@@ -24,7 +24,7 @@ class CarrotsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update carrot" do
-    patch carrot_url(@carrot), params: { carrot: { description: @carrot.description, name: @carrot.name, price: @carrot.price, stock: @carrot.stock } }, as: :json
+    patch carrot_url(@carrot), params: { carrot: { description: @carrot.description, name: @carrot.name, price: @carrot.price, stock: @carrot.stock, supplier_id: @carrot.supplier_id } }, as: :json
     assert_response :success
   end
 

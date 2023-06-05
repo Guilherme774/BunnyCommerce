@@ -46,6 +46,6 @@ class CarrotsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def carrot_params
-      params.require(:carrot).permit(:name, :description, :price, :stock)
+      params.require(:carrot).permit(:name, :description, :price, :stock, :supplier_id)
     end
 end

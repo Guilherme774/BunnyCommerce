@@ -6,4 +6,6 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Carrot.create(name: "Orange Carrot", description: "This is for perfect for Bunnies", price: 3.75, stock: 20)
+supl = Supplier.create(company: "Carrot Puppies")
+
+Carrot.create(name: "Orange Carrot", description: "This is perfect for Bunnies", price: 3.75, stock: 20, supplier: supl)
