@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  carrot: one
+  quantity: 1
+  total: 9.99
+  order: one
+
+two:
+  carrot: two
+  quantity: 1
+  total: 9.99
+  order: two
