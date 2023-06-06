@@ -34,5 +34,5 @@ Back-end for BunnyCommerce
 
 1. Clone this repository
 2. Install Ruby and Ruby on Rails
-3. Run "Rails db:create db:migrate"
-4. Run "Rails s"
+3. Run "rails db:create db:migrate"
+4. Run "rails s"
