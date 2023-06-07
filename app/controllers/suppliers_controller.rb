@@ -24,6 +24,17 @@ class SuppliersController < ApplicationController
     end
   end
 
+
+  def get_all_supplier_carrots
+    carrots = Carrot.where(supplier_id: params[:id])
+
+    if carrots
+      render json: carrots
+    else
+      render json: []
+    end
+  end
+
   # PATCH/PUT /suppliers/1
   def update
     if @supplier.update(supplier_params)
