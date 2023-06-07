@@ -13,6 +13,16 @@ class OrdersController < ApplicationController
     render json: @order
   end
 
+  def get_order_cartings
+    cartings = Carting.where(order_id: params[:id])
+
+    if cartings
+      render json: cartings
+    else
+      render json: []
+    end
+  end
+
   # POST /orders
   def create
     @order = Order.new(order_params)
