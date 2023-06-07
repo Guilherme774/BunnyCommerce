@@ -4,7 +4,7 @@ Back-end for BunnyCommerce
 
 > Project Status: In progress ⚠️
 > <br>
-> Current Working: Get a specific property from the Objects ⚠️
+> Current Working: Get all Carting Itens from an Order ⚠️
 <br>
 
 ### This is a simple Ecommerce Ruby on Rails Back-end project developed for study purpose.
