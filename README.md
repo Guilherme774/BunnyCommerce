@@ -2,9 +2,9 @@
 Back-end for BunnyCommerce
 
 
-> Project Status: In progress ⚠️
+> Project Status: Finished ✅
 > <br>
-> Current Working: Get all Carting Itens from an Order ⚠️
+> Current Working: Done ✅
 <br>
 
 ### This is a simple Ecommerce Ruby on Rails Back-end project developed for study purpose.
