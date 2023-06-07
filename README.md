@@ -11,7 +11,7 @@ Back-end for BunnyCommerce
 
 ### That is a simple but very powerfull project and i tried to use the best developments, git and clean code practices.
 
-### I performed the entire development flow, from the entity diagrams to the code itself to get as close as possible to a real project.
+### I performed the entire development flow, from the entity diagrams to the code itself, to get as close as possible to a real project.
 
 <br>
 
